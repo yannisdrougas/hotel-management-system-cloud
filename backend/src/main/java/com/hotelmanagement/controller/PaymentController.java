@@ -13,10 +13,7 @@ import com.hotelmanagement.service.PaymentService;
 
 @RestController
 @RequestMapping("/api/payments")
-@CrossOrigin(
-        origins = "http://localhost:5173",
-        allowCredentials = "true"
-)
+
 public class PaymentController {
 
     private final PaymentService paymentService;
